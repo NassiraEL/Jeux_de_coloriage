@@ -1,0 +1,202 @@
+
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 166, 0, 0.473);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ header h3{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+ }
+
+ section{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ section img{
+    margin-top: auto;
+ }
+
+ .box{
+    margin-top: 3%;
+    background-color: rgba(255, 166, 0, 0.473);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+
+ }
+
+ .tol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .table{
+    background-color: #eee;
+   padding: 130px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   margin-top: 40px;
+   border-radius: 10px;
+ }
+
+
+.letter-a {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.left-bar, .right-bar, .horizontal-bar {
+    position: absolute;
+    background-color: blue;
+}
+
+.left-bar, .right-bar {
+    width: 20px;
+    height: 100px;
+}
+
+.left-bar {
+    top: 0;
+    left: 0;
+}
+
+.right-bar {
+    top: 0;
+    right: 0;
+}
+
+.horizontal-bar {
+    width: 60px;
+    height: 20px;
+    top: 40px;
+    left: 20px;
+}
+input{
+    cursor: url('imageonline/paintbucket_5503.png') 5 5, auto;
+}
+
+.b, .a, .c, .d{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-b, .right-b {
+    border: 10px solid black;
+
+}
+
+
+
+.left-b {
+    border-top-right-radius: 50%;
+    border-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 30%;
+    width: 80px;
+    height: 40px;
+    
+}
+
+.right-b {
+   border-bottom-right-radius: 50%;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 5px;
+   width: 80px;
+   height: 60px;
+   border-top: 7px solid black;
+}
+
+.left-a, .right-a {
+    width: 80px;
+    height: 50px;
+}
+
+
+
+.left-a {
+    border-top-right-radius: 50%;
+    border-bottom: 5px;
+    border-top-left-radius: 50%;
+    border: 10px solid black;
+    
+}
+
+.right-a {
+
+   border-left: 10px solid black;
+   border-right: 10px solid black;
+}
+
+.left-c, .right-c {
+  
+    width: 70px;
+    height: 50px;
+}
+
+.left-c {
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 30%;
+    
+}
+
+.right-c {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 30%;
+}
+
+
+.left-d, .right-d {
+    border: 10px solid black;
+    width: 80px;
+    height: 50px;
+}
+
+.left-d {
+    border-top-right-radius: 50%;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    
+}
+
+.right-d {
+    border-top: none;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 5px;
+}
